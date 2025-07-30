@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\HP Elitebook 840G3\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)dotmake.commandline\2.6.7\build\DotMake.CommandLine.props" Condition="Exists('$(NuGetPackageRoot)dotmake.commandline\2.6.7\build\DotMake.CommandLine.props')" />
+  </ImportGroup>
 </Project>

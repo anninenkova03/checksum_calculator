@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ChecksumCalculator/1.0.0": {
+        "dependencies": {
+          "DotMake.CommandLine": "2.6.7"
+        },
+        "runtime": {
+          "ChecksumCalculator.dll": {}
+        }
+      },
+      "DotMake.CommandLine/2.6.7": {
+        "dependencies": {
+          "System.CommandLine": "2.0.0-beta6.25358.103"
+        },
+        "runtime": {
+          "lib/net8.0/DotMake.CommandLine.dll": {
+            "assemblyVersion": "2.6.7.0",
+            "fileVersion": "2.6.7.0"
+          }
+        }
+      },
+      "System.CommandLine/2.0.0-beta6.25358.103": {
+        "runtime": {
+          "lib/net8.0/System.CommandLine.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.25.35903"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChecksumCalculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotMake.CommandLine/2.6.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9zNDqmM4COL97DW6x/vc/86iitckNhzYsLmvLcRns23HKoL7HBa/LotOcjzw988r2v+oQ5+5S0u2qT6cjLRt8g==",
+      "path": "dotmake.commandline/2.6.7",
+      "hashPath": "dotmake.commandline.2.6.7.nupkg.sha512"
+    },
+    "System.CommandLine/2.0.0-beta6.25358.103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YE8bPzXelsU4Fm4mHIFKwPHYJ1RT0hr1b5+tiyjFk4YYpA+WKzdYxrvdJVJIoC+2vbtffajA928Qe7xUj0WR4g==",
+      "path": "system.commandline/2.0.0-beta6.25358.103",
+      "hashPath": "system.commandline.2.0.0-beta6.25358.103.nupkg.sha512"
+    }
+  }
+}

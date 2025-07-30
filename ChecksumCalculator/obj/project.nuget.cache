@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "I/kR24L3dnU=",
+  "dgSpecHash": "U+6cXa44Rpk=",
   "success": true,
   "projectFilePath": "C:\\Users\\HP Elitebook 840G3\\OneDrive\\Desktop\\Study Goals\\Summer\\Design Patterns\\ChecksumCalculator\\ChecksumCalculator\\ChecksumCalculator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\HP Elitebook 840G3\\.nuget\\packages\\dotmake.commandline\\2.6.7\\dotmake.commandline.2.6.7.nupkg.sha512",
+    "C:\\Users\\HP Elitebook 840G3\\.nuget\\packages\\system.commandline\\2.0.0-beta6.25358.103\\system.commandline.2.0.0-beta6.25358.103.nupkg.sha512"
+  ],
   "logs": []
 }

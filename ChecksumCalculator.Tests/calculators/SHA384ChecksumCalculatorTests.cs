@@ -12,7 +12,7 @@ namespace ChecksumCalculator.Tests.calculators
       {
          var calculator = new SHA384ChecksumCalculator();
          using var stream = new MemoryStream(Encoding.UTF8.GetBytes(input));
-         string actualHash = calculator.calculate(stream);
+         string actualHash = calculator.Calculate(stream);
          Assert.Equal(expectedHash, actualHash);
       }
    }

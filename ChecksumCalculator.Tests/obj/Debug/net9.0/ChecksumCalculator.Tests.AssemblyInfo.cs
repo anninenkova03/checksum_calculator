@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChecksumCalculator.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9b15fefff7f2fa7ccf0185e1bfa332a1a472e0a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae47b8a170ac3a40a30ca2ea9f358fadb3782554")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChecksumCalculator.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChecksumCalculator.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

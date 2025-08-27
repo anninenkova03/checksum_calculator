@@ -14,7 +14,7 @@ namespace ChecksumCalculator.calculators
       /// </summary>
       /// <param name="inputStream"></param>
       /// <returns></returns>
-      public string calculate(Stream inputStream)
+      public string Calculate(Stream inputStream)
       {
          using var hasher = SHA1.Create();
          {

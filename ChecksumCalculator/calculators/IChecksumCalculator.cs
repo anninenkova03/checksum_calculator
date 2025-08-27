@@ -11,6 +11,6 @@ namespace ChecksumCalculator.calculators
    /// </summary>
    public interface IChecksumCalculator
    {
-      string calculate(Stream inputStream);
+      string Calculate(Stream inputStream);
    }
 }
